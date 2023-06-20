@@ -35,6 +35,8 @@ Refactored to add 11 helper functions (~45 lines each) with names to describe fu
 - (void)scan:(UIImage *)image;
 ```
 
+----------------------------------
+
 Script to update encoding for MySQL databases with mix of UTF-8 and Latin1 encoding:
 
 ```
@@ -143,6 +145,8 @@ function getForeignConstraintsForTable($db, $tableParams) { }
 
 function getColumnEncodingDataForTable($db, $tableParams) { }
 ```
+
+----------------------------------
 
 Adding support for coupons to an existing Invoices API that supports payments with Stripe.
 
@@ -293,6 +297,8 @@ trait InvoicesCouponTrait
 
     public function removePendingCoupon($coupon) { }
 ```
+
+----------------------------------
 
 Implementing PayPal support through CyberSource: https://certifications.crossfit.com/checkout/invoices/61ae6153869af
 
