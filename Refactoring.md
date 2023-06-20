@@ -2,14 +2,14 @@ Refactoring and fixing massive Objective-C/C function for scanning test images (
 
 Initial implementation was a single ~800 line `scan:` function.
 
-```
+``` objectivec
 - (id)init;
 - (void)scan:(UIImage *)image;
 ```
 
 Refactored to add 11 helper functions (~45 lines each) with names to describe function of underlying code while also fixing reliability of scanning from ~80% to ~99%:
 
-```
+``` objectivec
 - (id)init;
 
 - (void)setHorizontalSpacingFromTotalWidth:(float)totalWidth;

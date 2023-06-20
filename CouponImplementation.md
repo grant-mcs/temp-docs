@@ -1,6 +1,6 @@
 Adding support for coupons to an existing Invoices API that supports payments with Stripe.
 
-```
+``` php
 <?php
 
 namespace Invoices\Helpers;

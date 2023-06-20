@@ -1,6 +1,6 @@
 Script to update encoding for MySQL databases with mix of UTF-8 and Latin1 encoding:
 
-```
+``` sql
 $db = \DB::connect();
 $sqlDbs = 'SHOW DATABASES';
 $dbs = $db->selectArray($sqlDbs);
